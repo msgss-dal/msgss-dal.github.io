@@ -1,2 +1,2 @@
-# msgss-dal.github.io-
+# msgss-dal.github.io
 Website for the society.
