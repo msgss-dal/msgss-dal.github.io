@@ -1,0 +1,34 @@
+name: Rebuild seminar page
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - talks.yaml
+      - build.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python build.py
+      - name: Commit rebuilt page
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add seminar/index.html
+          if git diff --cached --quiet; then
+            echo "seminar/index.html already up to date"
+          else
+            git commit -m "Rebuild seminar page"
+            git push
+          fi

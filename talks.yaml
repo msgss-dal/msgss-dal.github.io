@@ -1,0 +1,159 @@
+info:
+  name: Dalhousie Mathematics & Statistics Graduate Seminar
+  location: Chase Building, Room 227
+  time: Thursdays, 4:00-5:00 PM
+  contact: msgss@dal.ca
+  blurb: |-
+    Snacks and coffee will be provided.
+
+talks:
+  - date: 2026-10-08
+    speaker: Scott Wesley
+    title: Theorem Proving in the AI Age
+    abstract: |-
+      Automated theorem proving has long been a goal of mathematicians and AI researchers alike. Historically, this has followed a lineage of logical deduction and computer verified proof. However, with the advent of generative pre-trained transformations (GPTs), the game has radically changed. The first half of this talk will provide a brief history of automated theorem proving and its fundamental limitations. Some time will be spent surveying theorems recently proven by GPTs, the implications of these results, and the surrounding controversies. The second half of this talk will take a step back and consider the broader implications of these results to our work and our identities as mathematicians. Audience members will be encouraged to share their thoughts and become part of the discussion
+
+  - date: 2026-10-01
+    speaker: Jeremiah Hockaday
+    title: "The hard way: making inductive data types via initial algebras in Lean4"
+    abstract: |-
+      Sometimes Lean can be finicky. Maybe you try to define a well-founded type, but Lean does not except it. In this talk I will describe my experience trying to define games in Lean via the quotient of a polynomial functor and its fixed point. We will also go over how to manually define a fold.
+
+  - date: 2026-09-24
+    speaker: Tanner Altenkirk
+    title: Algebraic L-Theory via Poincare Infinity Categories
+    abstract: |-
+      Algebraic L-theory was developed in the late 1960's by C.T.C. Wall and others as a means of classifying higher dimensional manifolds via surgery theory. Importantly, given a triangulated topological space with Poincare duality of dimension greater than four, the theory defines a sequence of L-groups that encode the obstructions to surgery, which in turn tells us if the space is homotopic to a manifold. The theory was refined throughout the 70's and 80's by A. Ranicki, who systematically formulated L-theory in terms of chain complexes, depending only on a ring with involution, and in so doing managed to prove a Morita equivalence theorem for L-groups and also that the L-groups form a spectrum with four-periodicity.
+
+      However, despite Ranicki's successes, his chain complex formulation of the L-groups can be difficult to use in practice, and the proofs of the aforementioned theorems are somewhat challenging. Luckily, more recent joint work by Baptiste Calmès, Markus Land, Thomas Nikolaus, and six others has once again reformulated algebraic L-theory using the notion of a Poincare infinity category. The authors show that this reformulation does indeed recover all of Ranicki's theory, and furthermore it shows that one can do L-theory on any Poincare infinity category, providing a substantial generalization of the theory.
+
+      In this talk, I will introduce Ranicki's chain complex formulation of L-theory and outline the challenges associated with it. I will then introduce the infinity categorical formulation of Calmès et al and demonstrate that this approach is not only more general than the original theory, but also more natural. Time permitting, I will also briefly outline possible avenues of future research inspired by this modern categorical formulation of L-theory.
+
+  - date: 2026-04-06
+    speaker: Adrien DeLazzer
+    title: Fibrations, or how to make a bundle out of anything
+    abstract: |-
+      A "fibre bundle" in topology is a space E that resembles a product space of spaces B x F, but only locally on open neighborhoods of B. These come in various flavours, characterized by the type of fibre, and by what happens when you move from one local patch to another. In the context of topology, a "fibration" is an abstraction of this concept defined in terms of being able to lift certain classes of maps X to B to maps X to E. Using the more abstract notion, we can think about fibrations in non-geometric settings. Indeed, the famous "Grothendieck construction" is a way to construct a fibration p : E to B that is a functor between two categories. In this informal talk, I'll give some examples of fibrations of various kinds, explain how Grothendieck's construction works, and sketch what it could possibly mean to "make a bundle out of anything". This is a topic I am still learning for myself, so I hope to remain accessible to non-experts, and am also looking forward to any comments from the knowledgeable.
+
+  - date: 2026-03-30
+    speaker: Isaac McMullin
+    title: On the Real Reliability Roots of Graphs
+    abstract: |-
+      There are many ways to model a network's robustness to random failure. In one such method, consider a connected graph $G$, and assume that every edge fails independently with probability $q$. The {\em (all-terminal) reliability polynomial} (or just {\em Reliability Polynomial}) is the probability in $q$ that the spanning connected subgraph of operational edges is connected. In this presentation we will explore two recent results involving the real roots of reliability polynomials of simple graphs.
+
+  - date: 2026-03-23
+    speaker: Ethan O'Connell
+    title: Classification of Missingness for Extreme Wave Surge Modelling
+    abstract: |-
+      A common approach to modelling extreme wave surges is the block maxima approach, where the yearly maximum surge levels are extracted and modelled using the generalized extreme value distribution. Sea level records typically have many missing observations which can lead to biased estimation if the true yearly maxima are unobserved. Several methods have been proposed to account for missing observations within the block maxima approach, but their performance often depends on the missingness mechanism of the underlying series.
+
+      A crucial component of extreme surge modelling in the presence of missing data is the estimation of the probability that the observed block maxima correspond to the true block maxima. This can be framed as a semi-supervised classification problem, where the labels are only known for the fully observed years. In this talk, we will present an overview of the block maxima method for modelling extreme wave surges in Atlantic Canada and discuss data augmentation methods to develop classifiers by inducing missingness on the fully observed years.
+
+  - date: 2026-03-16
+    speaker: Scott Wesley
+    title: null
+    abstract: |-
+      Algebraic presentations allow us to study mathematical objects through their generators and the relations those generators satisfy. In this talk, we will begin by reviewing monoid presentations and seeing how this generalizes to PROP categories. Since free PROP categories can be understood as collections of circuit diagrams, then this formalism is ideal for studying circuits and their compositional properties. This approach has proven particularly successful in the context of quantum computing. However, this approach struggles with characterizing conditional statements, which are essential in all models of computation. In this talk, we will look at some preliminary results on identifying conditional structures in PROP categories, and challenges that arise when freely generating these conditional structures.
+
+  - date: 2026-03-09
+    speaker: Dario Brooks
+    title: null
+    abstract: null
+
+  - date: 2026-03-02
+    speaker: Nicholas Layden
+    title: null
+    abstract: |-
+      We describe the Kerr spacetime, which is a rotating black hole solution to Einstein's field equations. Using the invariant properties of the geometry, we can describe the structure of the black hole horizons, the frame dragging regions, and ultimately, the photon region where light is trapped into spherical orbits in a volume in the spacetime, and discuss the physical implications of the existence of these structures.
+
+  - date: 2026-02-02
+    speaker: Jonathan Tot
+    title: Polynomial Coefficients of Elimination Results from a system of Classical Mechanics
+    abstract: |-
+      We study the static solutions of a rotating double pendulum: a double pendulum modeled as constructed from physical pendula, or three-dimensional rigid bodies, and made to rotate uniformly about the vertical axis through the fixed inner pivot. Resultants can be computed to produce bifurcation diagrams: plots of equilibrium positions against a control parameter. Bifurcation can also be described by a system of polynomial equations. The position variables of the pendula can be eliminated from this system to produce a polynomial condition (the resultant) on the parameter space; the model exhibits bifurcation for parameter values which are solutions of this polynomial. This and other related resultants have been computed using DixonEDF, an algorithm which extracts a factorization of the Dixon resultant, and which is implemented in the CAS Fermat. In this presentation, I will also present several observations of novel patterns observed in the coefficient arrays of the large polynomials produced by these computations.
+
+  - date: 2025-12-01
+    speaker: David Zeidler
+    title: Crossed Modules of Inverse Semigroups as Internal Categories
+    abstract: |-
+      A crossed module is a group homomorphism $\partial:A \rightarrow B$ together with a group action of $B$ on $A$ that satisfies axioms relating the action and the homomorphism. Crossed modules were first discovered in algebraic topology in the 1940s (Whitehead, 1941, 1946), but they also appear naturally in group theory and cohomology theory (Brown, 1982). A classical result of Spencer and Brown (1976) shows that the category of crossed modules of groups is equivalent to the category of categories internal to groups, i.e., 2-groups. This equivalence enabled results such as the 2-dimensional Seifert–van Kampen theorem (Brown and Higgens, 1978) and is one of the earliest uses of higher-dimensional algebra.
+
+      In this thesis we extend the Spencer–Brown equivalence to the context of inverse semigroups, a generalization of groups that model partial symmetries. We construct a notion of crossed module of inductive groupoids, equipped with a groupoid action. Inductive groupoids are equivalent to inverse semigroups via the Ehresmann–Schein–Nambooripad Theorem (Schein, 1965). We show that crossed modules of inductive groupoids are equivalent to a class of categories internal to inductive groupoids and consider examples of such crossed modules arising in the work of Dokuchaev, Khrypchenko, and Makuta (2022). The intuitions developed in proving the groupoid case allow us to show that crossed modules of inverse semigroups, defined using a semigroup action and modified crossed module axioms, are equivalent to a class of categories internal to inverse semigroups.  Finally, we show that the two categories of crossed modules we have defined are equivalent.
+
+  - date: 2025-11-24
+    speaker: Deni Salja
+    title: (Higher) Fractions are your (Higher) Friends
+    abstract: |-
+      We learned about fractions at a young age when it was time to cut our birthday cakes. With the inflation of cake prices and our growing interest in abstract nonsense, many of us have started serving (higher) categories at our birthday parties instead. In this talk I will tell you about fractions for a couple different flavours of categories and how the axioms required to define these are naturally related to geometric notions of subdivision.
+
+  - date: 2025-11-17
+    speaker: Mohammad M. Amirian
+    title: Parameterization of photoinhibition for phytoplankton
+    abstract: |-
+      Phytoplankton—the microscopic plants of the ocean—drive roughly half of global primary production. To quantify how much carbon they fix, ocean scientists rely on photosynthesis–irradiance (P–I) curves, which describe how photosynthesis changes with light. Classical models capture the initial rise and saturation of these curves, but consistently fail under photoinhibition, the decline in photosynthesis caused by excessive light.
+
+      In this talk, I introduce a new and unusually simple P–I model that resolves this long-standing problem. Rather than using the traditional exponential decay with irradiance, we propose a saturating function of the reciprocal of irradiance. Tested against ~4,000 open-ocean P–I experiments, this formulation outperforms all existing models and avoids the interpretive pitfalls that have challenged the field for a century. It is mathematically more stable, statistically more accurate, and provides clean, direct estimates of key quantities (maximum photosynthesis rate, photoinhibition rate, and the onset of photoinhibition) directly from data, something that previous models could not reliably achieve.
+
+  - date: 2025-11-10
+    speaker: Scott Wesley
+    title: Generalized Quantum Conditional Statements
+    abstract: |-
+      The notion of a conditional statement is very important in theoretical computer science. From an operational point of view, a conditional statement allows for a program to adjust its behaviour to the input data it has been provided. From a more mathematical point of view, each conditional statement can be understood as a direct sum of operations, where the right summand is what happens when the condition is not true and the left summand is what happens when the condition is true. This generalization is useful when studying the categorical semantics of classical reversible programs.
+
+      Whereas classical conditional statements are well understood, quantum conditional statements are still an open area of research. In fact, there are many mathematical generalizations of the quantum conditional statement which are not equivalent to each other. This suggests that we still do not understand the mathematical aspects that characterize quantum conditional statements. In this talk, we will introduce several generalizations of the quantum conditional statement and discuss how they are related. We will argue that quantum conditional statements are characterized by how their analytic properties relate to their algebraic and logical properties. This is in contrast to existing generalizations, which focus on only one such property in isolation.
+
+  - date: 2025-11-03
+    speaker: Melanie Gauthier
+    title: The Snort Product - Finding the Cop Number
+    abstract: |-
+      In my honours thesis, I introduced the Snort product of two graphs, a new type of graph product inspired by the combinatorial game Snort, a two-player graph colouring game. In this talk, we give some background for the construction of the graph product, then we study the game of Cops and Robbers on Snort products, a pursuit-evasion game played on graphs where a set of cops tries to capture a robber. Our main focus is to determine the cop number of Snort products, the minimum number of cops needed to guarantee capture. We will explore examples involving paths and cycles, present strategies for the cops, and discuss bounds for more complicated cases. This is joint work with Dr. Danielle Cox and Dr. Svenja Huntemann from Mount Saint Vincent University.
+
+  - date: 2025-11-03
+    speaker: Rory Schepp
+    title: Methods for Improving Compilation of Quantum Circuits to Lattice Surgery
+    abstract: |-
+      A key challenge in quantum computing is implementing quantum programs with effective error correction. Our research investigates improved techniques for compiling quantum programs into lattice surgery operations on surface codes. We present a method that uses the ZX calculus, a graphical language for reasoning about quantum circuits, by leveraging its close operational relationship to lattice surgery. This approach has enabled us to develop compilation strategies that may offer significant advantages for the efficient realization of fault-tolerant quantum computations.
+
+  - date: 2025-10-27
+    speaker: Arvin Vaziry
+    title: From random walk to studying the Pattern formation on a periodic rectangle
+    abstract: |-
+      My main research focuses on pattern formation in reaction diffusion (RD) system. Studying the pattern formation of Schnakenberg model on a rectangle with periodic boundary condition in my recent paper lands on the intersection of three different problem in applied math.
+
+      However, In favour of majority of our department which are not in applied math, I would approach this intersection from a classic old problem, random walk, and to establish the set up of problem, I would like to use statistical notation (to brag about my recent studies in stochastic analysis!). Once, I have the set up, I may explain the derivation of the problem from RD systems briefly.
+
+      Investigating the stability of pattern formation in this problem, will lead us to a side problem in number theory (which change my perspective about math, and I'll share my post on LinkedIn about it with you!). I will explain the results of stability analysis of the patterns and time permitting I will share open questions that arises from this work.
+
+  - date: 2025-10-20
+    speaker: Daniel Teixeira
+    title: On the uniqueness of high school angles
+    abstract: |-
+      The only first quadrant rational multiples of π whose cosines are of the form √k/n for positive integers are 0, π/6, π/2, π/3, and π/2. We will give two proofs of this fact: an ugly proof via Galois Theory, and the proof from the Book which exploits that 2\cos(aπ/b) is an algebraic integer. This is joint work with ChatGPT, and I will comment on that experience.
+
+  - date: 2025-10-06
+    speaker: Hayato Nasu
+    title: An invitation to double categories
+    abstract: |-
+      I will give a gentle introduction to double categories, a generalization of categories. Through examples from different areas of mathematics, I will illustrate how some basic theorems apply to these structures. I will also show how enjoyable diagrammatic reasoning can be. No prior knowledge of category theory is required.
+
+  - date: 2025-09-29
+    speaker: Thiago de Holleben
+    title: The secret life of h-polynomials
+    abstract: |-
+      A very common theme in combinatorics is to associate a polynomial to an object, and then show that the coefficients of this polynomial have "nice properties". Desirable properties include: unimodality, log-concavity, gamma-positivity, real rootedness, etc. A common question asked when such a result is presented is: "why is this property relevant?"
+
+      In this talk we will go through some of these properties and how they appear in other areas of mathematics such as commutative algebra, algebraic geometry and differential geometry. Towards the end I will talk about recent results in joint work with Marge Bayer, Rick Danner, Marie Kramer and Yirong Yang on the real rootedness of the h-polynomial of triangulations of spheres arising from planar ternary graphs.
+
+  - date: 2025-09-22
+    speaker: Johnathan Tot
+    title: On the Equilibria and Bifurcations of a Rotating Double Pendulum
+    abstract: |-
+      The double pendulum, a simple system of classical mechanics, is widely studied as an example of, and testbed for, chaotic dynamics.  In 2016, Maiti et al. [1] studied a generalization of the simple double pendulum with equal point-masses at equal lengths, to a rotating double pendulum, fixed to a coordinate system uniformly rotating about the vertical. In this work, we have studied a considerable generalization of the double pendulum, constructed from physical pendula, and ask what equilibrium configurations exist for the system across a comparatively large parameters space, as well as what bifurcations occur in those equilibria.  Elimination algorithms are employed to reduce systems of polynomial equations, which allows for equilibria to be visualized, and also to demonstrate which models within the parameter space exhibit bifurcations.  We find the DixonEDF algorithm for the Dixon resultant [2], written in the computer algebra system Fermat, to be capable to complete the computation for the challenging system of equations that represents bifurcation, while attempts with other algorithms were terminated after several hours.
+
+      [1] Soumyabrata Maiti, Jyotirmoy Roy, Asok K. Mallik, and Jayanta K. Bhattacharjee, "Nonlinear dynamics of a rotating double Pendulum,'' Phys. Lett. A 380, 408--412 (2016).
+      [2] Robert H. Lewis, "Dixon-EDF: The Premier Method for Solution of Parametric Polynomial Systems,'' in Applications of Computer Algebra Vol. 198, edited by Ilias S. Kotsireas and Edgar Martínez-Moro (Springer International Publishing, 2017) p. 237-256, series Title: Proceedings in Mathematics & Statistics.
+
+  - date: 2025-09-15
+    speaker: Jeremiah Hockaday
+    title: null
+    abstract: null
