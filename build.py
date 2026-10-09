@@ -58,7 +58,7 @@ page = f"""<!DOCTYPE html>
             <li><a href="../index.html">Home</a></li>
             <li><a href="index.html">Seminar</a></li>
             <li><a href="../travel-grant.html">Travel Grant</a></li>
-            <li><a href="../docs.html">Documents</a></li>
+            <li><a href="../docs/">Documents</a></li>
             <li><a href="../contact.html">Contact</a></li>
         </ul>
     </div>
